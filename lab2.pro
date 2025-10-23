@@ -14,12 +14,15 @@ include(ResultShower/ResultShower.pri)
 SOURCES += \
     CalcFunctions.cpp \
     CustomRecord/CustomResultRecord.cpp \
+    CalcButton.cpp \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+
 
 HEADERS += \
     CalcFunctions.h \
     CustomRecord/CustomResultRecord.h \
+    CalcButton.h \
     mainwindow.h
 
 FORMS += \
